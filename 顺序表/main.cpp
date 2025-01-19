@@ -9,16 +9,16 @@ int main() {
     list.insert(0, 10);
     list.insert(1, 20);
     list.insert(2, 30);
+    list.insert(1, 10);
 
     // 遍历列表
     cout << "List after insertion:";
-    list.traverse(); // 输出: 10 20 30
+    list.traverse(); 
 
     // 删除元素
-    list.remove(1); // 删除 20
-    cout << "List after removing element at index 1:";
-    list.traverse(); // 输出: 10 30
-
+    list.remove(3); 
+    cout << "List after removing element at index 3:";
+    list.traverse(); 
     // 查找元素
     int index = list.search(30);
     if (index != -1) {
@@ -29,12 +29,17 @@ int main() {
     }
 
     // 访问元素
-    cout << "Element at index 0: " << list.visit(0) << endl; // 输出: 10
+    cout << "Element at index 0: " << list.visit(0) << endl; 
+
+    //删除等于0号元素的元素
+    list.erase(0);
+    cout << "List after erase(0) :" ;
+    list.traverse();
 
     // 清空列表
     list.clear();
     cout << "List after clearing:";
-    list.traverse(); // 输出: (空)
+    list.traverse(); 
 
     return 0;
 }

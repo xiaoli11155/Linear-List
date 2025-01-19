@@ -5,6 +5,8 @@ VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "顺序表", "顺序表\顺序表.vcxproj", "{B8C19552-4FAB-4765-AB94-0128F909A811}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "单链表", "单链表\单链表.vcxproj", "{B25EC2F3-3D5C-4AF8-BB12-ED110D3F37C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{B8C19552-4FAB-4765-AB94-0128F909A811}.Release|x64.Build.0 = Release|x64
 		{B8C19552-4FAB-4765-AB94-0128F909A811}.Release|x86.ActiveCfg = Release|Win32
 		{B8C19552-4FAB-4765-AB94-0128F909A811}.Release|x86.Build.0 = Release|Win32
+		{B25EC2F3-3D5C-4AF8-BB12-ED110D3F37C2}.Debug|x64.ActiveCfg = Debug|x64
+		{B25EC2F3-3D5C-4AF8-BB12-ED110D3F37C2}.Debug|x64.Build.0 = Debug|x64
+		{B25EC2F3-3D5C-4AF8-BB12-ED110D3F37C2}.Debug|x86.ActiveCfg = Debug|Win32
+		{B25EC2F3-3D5C-4AF8-BB12-ED110D3F37C2}.Debug|x86.Build.0 = Debug|Win32
+		{B25EC2F3-3D5C-4AF8-BB12-ED110D3F37C2}.Release|x64.ActiveCfg = Release|x64
+		{B25EC2F3-3D5C-4AF8-BB12-ED110D3F37C2}.Release|x64.Build.0 = Release|x64
+		{B25EC2F3-3D5C-4AF8-BB12-ED110D3F37C2}.Release|x86.ActiveCfg = Release|Win32
+		{B25EC2F3-3D5C-4AF8-BB12-ED110D3F37C2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

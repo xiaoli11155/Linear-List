@@ -87,5 +87,18 @@ void seqList<elemType>::remove(int i) {
     currentLength--;
 }
 
+//删除等于所有第i个元素的元素
+template <class elemType>
+void seqList<elemType>::erase(int i) {
+    elemType tmp = data[i];
+    int cnt = 0;
+    for (int j = 0; j < currentLength; j++) {
+        if (data[j] == tmp)cnt++;
+        else data[j - cnt] = data[j];
+    }
+    currentLength -= cnt;
+}
+
+
 // 显式实例化模板
 template class seqList<int>; // 显式实例化 int 类型

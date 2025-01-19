@@ -22,6 +22,7 @@ public:
     int search(const elemType& x) const;
     elemType visit(int i) const;
     void traverse() const;
+    void erase(int i);
 };
 
 // 声明显式实例化
