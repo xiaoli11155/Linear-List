@@ -1,7 +1,10 @@
 #include "seqList.h"
 #include<iostream>
+
 using namespace std;
+
 int main() {
+
     // 创建一个 seqList 对象
     seqList<int> list;
 
@@ -19,6 +22,7 @@ int main() {
     list.remove(3);
     cout << "List after removing element at index 3:";
     list.traverse();
+
     // 查找元素
     int index = list.search(30);
     if (index != -1) {
@@ -43,3 +47,16 @@ int main() {
 
     return 0;
 }
+
+/*运行结果：
+List after insertion:
+10 10 20 30
+List after removing element at index 3:
+10 10 20
+Element 30 not found.
+Element at index 0: 10
+List after erase(0) :
+20
+List after clearing:
+
+*/
