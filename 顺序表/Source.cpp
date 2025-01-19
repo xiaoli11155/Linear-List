@@ -89,4 +89,12 @@ void seqList<elemType>::insert(int i, const elemType& x) {
 	currentLength++;
 }
 
+template <class elemType>
+void seqList<elemType>::remove(int i) {
+	for (int j = i; j < currentLength; j++) {
+		data[j] = data[j + 1];
+	}
+	currentLength--;
+}
+
 
