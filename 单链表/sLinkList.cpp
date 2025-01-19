@@ -33,7 +33,7 @@ int sLinkList<elemType>::length() const {
 template <class elemType>
 typename sLinkList<elemType>::node* sLinkList<elemType>::move(int i) const {
     node* p = head;
-    while (i > 0) {
+    while (i >= 0) {
         p = p->next;
         i--;
     }
