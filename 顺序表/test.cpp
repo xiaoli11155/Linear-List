@@ -13,12 +13,12 @@ int main() {
 
     // 遍历列表
     cout << "List after insertion:";
-    list.traverse(); 
+    list.traverse();
 
     // 删除元素
-    list.remove(3); 
+    list.remove(3);
     cout << "List after removing element at index 3:";
-    list.traverse(); 
+    list.traverse();
     // 查找元素
     int index = list.search(30);
     if (index != -1) {
@@ -29,17 +29,17 @@ int main() {
     }
 
     // 访问元素
-    cout << "Element at index 0: " << list.visit(0) << endl; 
+    cout << "Element at index 0: " << list.visit(0) << endl;
 
     //删除等于0号元素的元素
     list.erase(0);
-    cout << "List after erase(0) :" ;
+    cout << "List after erase(0) :";
     list.traverse();
 
     // 清空列表
     list.clear();
     cout << "List after clearing:";
-    list.traverse(); 
+    list.traverse();
 
     return 0;
 }
