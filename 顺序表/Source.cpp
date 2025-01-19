@@ -18,3 +18,25 @@ public:
 	elemType visit(int i)const;
 	void traverse()const;
 };
+
+template <class elemType>
+seqList<elemType>::~seqList() {
+	delete[] data;
+}
+
+template <class elemType>
+void seqList<elemType>::clear() {
+	currentLength = 0;
+}
+
+template <class elemType>
+int seqList<elemType>::length()const {
+	return currentLength;
+}
+
+template <class elemType>
+elemType seqList<elemType>::visit(int i)const {
+	return data[i];
+}
+
+
