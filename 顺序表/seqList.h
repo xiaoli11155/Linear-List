@@ -1,11 +1,12 @@
 #ifndef SEQLIST_H
 #define SEQLIST_H
 
+#include "List.h"
 #include <iostream>
 using namespace std;
 
 template<class elemType>
-class seqList {
+class seqList : public List <elemType> {
 private:
     elemType* data;
     int currentLength;
