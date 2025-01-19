@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-    // 创建一个 sLinkList 对象
+    
     sLinkList<int> list;
 
     // 插入元素
@@ -13,12 +13,12 @@ int main() {
 
     // 遍历链表
     cout << "List after insertion:";
-    list.traverse(); // 输出: 10 20 30
+    list.traverse(); 
 
     // 删除元素
-    list.remove(1); // 删除 20
+    list.remove(1); 
     cout << "List after removing element at index 1:";
-    list.traverse(); // 输出: 10 30
+    list.traverse(); 
 
     // 查找元素
     int index = list.search(30);
@@ -35,7 +35,7 @@ int main() {
     // 清空链表
     list.clear();
     cout << "List after clearing:";
-    list.traverse(); // 输出: (空)
+    list.traverse(); 
 
     return 0;
 }
