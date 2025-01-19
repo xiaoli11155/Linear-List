@@ -131,7 +131,8 @@
     <ClCompile Include="test.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\顺序表\list.h" />
+    <ClInclude Include="List.h" />
+    <ClInclude Include="sLinkList.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
