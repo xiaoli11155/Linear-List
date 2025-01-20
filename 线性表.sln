@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "STL的线性表list", "STL�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "应用：大整数处理", "应用：大整数处理\应用：大整数处理.vcxproj", "{2D7AF03F-58F3-4582-934C-2271D9F2E421}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "应用：多项式运算", "应用：多项式求和\应用：多项式求和.vcxproj", "{A80966EA-3C30-4C8D-8970-F2570EE2F574}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +73,14 @@ Global
 		{2D7AF03F-58F3-4582-934C-2271D9F2E421}.Release|x64.Build.0 = Release|x64
 		{2D7AF03F-58F3-4582-934C-2271D9F2E421}.Release|x86.ActiveCfg = Release|Win32
 		{2D7AF03F-58F3-4582-934C-2271D9F2E421}.Release|x86.Build.0 = Release|Win32
+		{A80966EA-3C30-4C8D-8970-F2570EE2F574}.Debug|x64.ActiveCfg = Debug|x64
+		{A80966EA-3C30-4C8D-8970-F2570EE2F574}.Debug|x64.Build.0 = Debug|x64
+		{A80966EA-3C30-4C8D-8970-F2570EE2F574}.Debug|x86.ActiveCfg = Debug|Win32
+		{A80966EA-3C30-4C8D-8970-F2570EE2F574}.Debug|x86.Build.0 = Debug|Win32
+		{A80966EA-3C30-4C8D-8970-F2570EE2F574}.Release|x64.ActiveCfg = Release|x64
+		{A80966EA-3C30-4C8D-8970-F2570EE2F574}.Release|x64.Build.0 = Release|x64
+		{A80966EA-3C30-4C8D-8970-F2570EE2F574}.Release|x86.ActiveCfg = Release|Win32
+		{A80966EA-3C30-4C8D-8970-F2570EE2F574}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
