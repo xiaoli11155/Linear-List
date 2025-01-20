@@ -85,5 +85,6 @@ void sLinkList<elemType>::traverse() const {
     cout << endl;
 }
 
+
 // 注释
 template class sLinkList<int>;
