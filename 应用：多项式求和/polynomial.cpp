@@ -4,16 +4,18 @@ Node* add(Node* exp1, Node* exp2) {
 	Node* res, * p, * tmp;  //res存放加的结果，p指向res的表尾
 
 	res = p = new Node();
+
 	exp1 = exp1->next;
 	exp2 = exp2->next;
+
 	while (exp1 != nullptr && exp2 != nullptr) {
 		if (exp1->exp < exp2->exp) {
-			p->next = new Node(exp1->coff, exp1->exp);
-			exp1 = exp1->next;
-		}
-		else if (exp1->exp > exp2->exp) {
 			p->next = new Node(exp2->coff, exp2->exp);
 			exp2 = exp2->next;
+		}
+		else if (exp1->exp > exp2->exp) {
+			p->next = new Node(exp1->coff, exp1->exp);
+			exp1 = exp1->next;
 		}
 		else {
 			int sumCoff = exp1->coff + exp2->coff;
@@ -46,15 +48,18 @@ Node* sub(Node* exp1, Node* exp2) {
 	exp2 = exp2->next;
 	while (exp1 != nullptr && exp2 != nullptr) {
 		if (exp1->exp < exp2->exp) {
-			p->next = new Node(exp1->coff, exp1->exp);
-			exp1 = exp1->next;
-		}
-		else if (exp1->exp > exp2->exp) {
 			p->next = new Node(exp2->coff, exp2->exp);
 			exp2 = exp2->next;
 		}
-		else if (exp1->exp - exp2->exp != 0) {
-			p->next = new Node(exp1->coff - exp2->coff, exp1->exp);
+		else if (exp1->exp > exp2->exp) {
+			p->next = new Node(exp1->coff, exp1->exp);
+			exp1 = exp1->next;
+		}
+		else {
+			int diffCoff = exp1->coff - exp2->coff;
+			if (diffCoff != 0) {
+				p->next = new Node(diffCoff, exp1->exp);
+			}
 			exp1 = exp1->next;
 			exp2 = exp2->next;
 		}
