@@ -93,19 +93,19 @@ void print_all(Node* head) {
 		temp = temp->next;
 	}
 
-	// 从低次到高次输出
+	
 	for (int exp = maxExp; exp >= 0; exp--) {
 		temp = p;
 		while (temp != nullptr) {
 			if (temp->exp == exp) {
-				//
 				if (!isFirstTerm && temp->coff > 0) {
-					cout << "+"; // 正系数项前加 "+"
+					cout << " + "; // 正系数项前加 "+"
 				}
 				else if (temp->coff < 0) {
-					cout << "-"; // 负系数项前加 "-"
+					cout << " - "; // 负系数项前加 "-"
 				}
 
+				// 输出系数
 				if (exp == 0 || (temp->coff != 1 && temp->coff != -1)) {
 					if (temp->coff > 0) {
 						cout << temp->coff; // 正系数直接输出
@@ -122,6 +122,7 @@ void print_all(Node* head) {
 						cout << "^" << exp; // 指数大于 1 时输出指数
 					}
 				}
+
 
 				isFirstTerm = false;
 			}
