@@ -9,7 +9,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "单链表", "单链表\单�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "双链表", "双链表\双链表.vcxproj", "{6796FB77-5964-4B6F-851A-4DC4C469959C}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "STL的线性表类", "STL的线性表类\STL的线性表类.vcxproj", "{816C9100-5E94-425C-B8E2-471936F9371F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "STL的线性表vector", "STL的线性表vector\STL的线性表vector.vcxproj", "{3FD87E8C-71C9-4CFB-A20C-E9E2CD4D6CF0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,14 +43,14 @@ Global
 		{6796FB77-5964-4B6F-851A-4DC4C469959C}.Release|x64.Build.0 = Release|x64
 		{6796FB77-5964-4B6F-851A-4DC4C469959C}.Release|x86.ActiveCfg = Release|Win32
 		{6796FB77-5964-4B6F-851A-4DC4C469959C}.Release|x86.Build.0 = Release|Win32
-		{816C9100-5E94-425C-B8E2-471936F9371F}.Debug|x64.ActiveCfg = Debug|x64
-		{816C9100-5E94-425C-B8E2-471936F9371F}.Debug|x64.Build.0 = Debug|x64
-		{816C9100-5E94-425C-B8E2-471936F9371F}.Debug|x86.ActiveCfg = Debug|Win32
-		{816C9100-5E94-425C-B8E2-471936F9371F}.Debug|x86.Build.0 = Debug|Win32
-		{816C9100-5E94-425C-B8E2-471936F9371F}.Release|x64.ActiveCfg = Release|x64
-		{816C9100-5E94-425C-B8E2-471936F9371F}.Release|x64.Build.0 = Release|x64
-		{816C9100-5E94-425C-B8E2-471936F9371F}.Release|x86.ActiveCfg = Release|Win32
-		{816C9100-5E94-425C-B8E2-471936F9371F}.Release|x86.Build.0 = Release|Win32
+		{3FD87E8C-71C9-4CFB-A20C-E9E2CD4D6CF0}.Debug|x64.ActiveCfg = Debug|x64
+		{3FD87E8C-71C9-4CFB-A20C-E9E2CD4D6CF0}.Debug|x64.Build.0 = Debug|x64
+		{3FD87E8C-71C9-4CFB-A20C-E9E2CD4D6CF0}.Debug|x86.ActiveCfg = Debug|Win32
+		{3FD87E8C-71C9-4CFB-A20C-E9E2CD4D6CF0}.Debug|x86.Build.0 = Debug|Win32
+		{3FD87E8C-71C9-4CFB-A20C-E9E2CD4D6CF0}.Release|x64.ActiveCfg = Release|x64
+		{3FD87E8C-71C9-4CFB-A20C-E9E2CD4D6CF0}.Release|x64.Build.0 = Release|x64
+		{3FD87E8C-71C9-4CFB-A20C-E9E2CD4D6CF0}.Release|x86.ActiveCfg = Release|Win32
+		{3FD87E8C-71C9-4CFB-A20C-E9E2CD4D6CF0}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
