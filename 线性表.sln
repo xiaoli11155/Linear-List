@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "STL的线性表vector", "ST
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "STL的线性表list", "STL的线性表list\STL的线性表list.vcxproj", "{2FD5A3C2-CA1F-4C1E-8B5D-FDD87353D0A5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "应用：大整数处理", "应用：大整数处理\应用：大整数处理.vcxproj", "{2D7AF03F-58F3-4582-934C-2271D9F2E421}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{2FD5A3C2-CA1F-4C1E-8B5D-FDD87353D0A5}.Release|x64.Build.0 = Release|x64
 		{2FD5A3C2-CA1F-4C1E-8B5D-FDD87353D0A5}.Release|x86.ActiveCfg = Release|Win32
 		{2FD5A3C2-CA1F-4C1E-8B5D-FDD87353D0A5}.Release|x86.Build.0 = Release|Win32
+		{2D7AF03F-58F3-4582-934C-2271D9F2E421}.Debug|x64.ActiveCfg = Debug|x64
+		{2D7AF03F-58F3-4582-934C-2271D9F2E421}.Debug|x64.Build.0 = Debug|x64
+		{2D7AF03F-58F3-4582-934C-2271D9F2E421}.Debug|x86.ActiveCfg = Debug|Win32
+		{2D7AF03F-58F3-4582-934C-2271D9F2E421}.Debug|x86.Build.0 = Debug|Win32
+		{2D7AF03F-58F3-4582-934C-2271D9F2E421}.Release|x64.ActiveCfg = Release|x64
+		{2D7AF03F-58F3-4582-934C-2271D9F2E421}.Release|x64.Build.0 = Release|x64
+		{2D7AF03F-58F3-4582-934C-2271D9F2E421}.Release|x86.ActiveCfg = Release|Win32
+		{2D7AF03F-58F3-4582-934C-2271D9F2E421}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
