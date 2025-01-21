@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "应用：多项式运算", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "应用：约瑟夫环", "应用：约瑟夫环\应用：约瑟夫环.vcxproj", "{DD1FFBC5-E296-42DD-87AF-D3EB828B611E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "应用：动态内存管理", "应用：动态内存管理\应用：动态内存管理.vcxproj", "{F9F63324-928C-46BE-8808-A274A08B53FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -91,6 +93,14 @@ Global
 		{DD1FFBC5-E296-42DD-87AF-D3EB828B611E}.Release|x64.Build.0 = Release|x64
 		{DD1FFBC5-E296-42DD-87AF-D3EB828B611E}.Release|x86.ActiveCfg = Release|Win32
 		{DD1FFBC5-E296-42DD-87AF-D3EB828B611E}.Release|x86.Build.0 = Release|Win32
+		{F9F63324-928C-46BE-8808-A274A08B53FA}.Debug|x64.ActiveCfg = Debug|x64
+		{F9F63324-928C-46BE-8808-A274A08B53FA}.Debug|x64.Build.0 = Debug|x64
+		{F9F63324-928C-46BE-8808-A274A08B53FA}.Debug|x86.ActiveCfg = Debug|Win32
+		{F9F63324-928C-46BE-8808-A274A08B53FA}.Debug|x86.Build.0 = Debug|Win32
+		{F9F63324-928C-46BE-8808-A274A08B53FA}.Release|x64.ActiveCfg = Release|x64
+		{F9F63324-928C-46BE-8808-A274A08B53FA}.Release|x64.Build.0 = Release|x64
+		{F9F63324-928C-46BE-8808-A274A08B53FA}.Release|x86.ActiveCfg = Release|Win32
+		{F9F63324-928C-46BE-8808-A274A08B53FA}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
